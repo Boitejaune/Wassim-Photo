@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "unocss \"public/*.html\" -o \"public/assets/css/main.css\" --watch",
+    "build": "unocss \"public/*.html\" -o \"public/assets/css/main.css\" "
+  },
+  "devDependencies": {
+    "@unocss/cli": "^0.65.3",
+    "unocss": "^0.65.3"
+  }
+}
